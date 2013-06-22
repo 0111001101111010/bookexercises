@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+//log function does same as 4-3
 int get_width(double n) {
   return log10(n) + 1;
 }

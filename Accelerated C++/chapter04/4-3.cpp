@@ -4,6 +4,9 @@
 
 using namespace std;
 
+//purpose for 100 times until reaching 1,, log10(number) +1
+//regressive function for logs
+
 int get_width(int n) {
   return log10(n) + 1;
 }

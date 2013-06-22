@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//purpose for a hundred times, exponentialize 
+
 int main() {  
   for (int i = 1; i <= 100; ++i) {
     cout << setw(3)
