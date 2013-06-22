@@ -6,6 +6,8 @@
 #include <string>
 #include <vector>
 
+//uses specific libraries out of standard library
+
 using std::cin;                  using std::setprecision;
 using std::cout;                 using std::string;
 using std::endl;                 using std::streamsize;
@@ -50,7 +52,7 @@ int main() {
       cin >> x;
       sum += x;
     }
-  
+  //confusing as fuck to name it the same GRADES vs GRADE
     double final_grade = 0.2 * midterm + 0.4 * final + 0.4 * sum / count;
     final_grades.push_back(final_grade);
 
@@ -69,6 +71,7 @@ int main() {
        << final_grades[i]
        << setprecision(prec) << endl;
   }
-
+int balls; 
+cin >>  balls;
   return 0;
 }

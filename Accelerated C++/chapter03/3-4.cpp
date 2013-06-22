@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//purpose determines the longest and shortest length string.
+
 int main() {
   typedef string::size_type str_sz;
 
