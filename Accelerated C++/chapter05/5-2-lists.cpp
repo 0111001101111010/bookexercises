@@ -2,13 +2,13 @@
 #include <list>
 #include <iostream>
 #include <string>
-#include <ctime>
+#include <ctime> // clock 
 
 #include "Student_info.h"
 #include "grade.h"
 
 //driver program for grade partitioning examples
-
+    //uses ctime
 using std::cin;
 using std::cout;
 using std::endl;

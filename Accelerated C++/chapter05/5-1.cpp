@@ -22,7 +22,7 @@ vector<string> read_lines() {
 
   return lines;
 }
-
+ggG
 vector<Rotation> rotate_line(string line) {
   vector<Rotation> rotations;
   vector<string> words = split(line);

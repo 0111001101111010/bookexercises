@@ -14,7 +14,7 @@ using std::getline;
 using std::string;
 using std::vector;
 
-
+//example of url parsing
 int main() {
   string s;
   while (getline(cin, s)) {
